@@ -1,4 +1,4 @@
-body{
+body{body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,6 +61,15 @@ h2{
     width: 100%;
 }
 input{
-    margin-top: 10px;
-    gap: px;
+    margin-top: 20px;
+}
+.platforms, .platforms2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 38px;
+}
+
+.platformsContainer{
+    display: flex;
+    flex-direction: row;
 }
