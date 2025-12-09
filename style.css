@@ -78,12 +78,23 @@ input{
 .platformsContainer{
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
 }
 
 .share{
-    margin-bottom: -1px;
+    margin-bottom: -5px;
     margin-top: 40px;
 }
+
+.foot{
+    color: red;
+}
+
+footer{
+    text-align: center;
+    margin-top: 0px;
+}
+
 
 
 
