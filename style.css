@@ -38,6 +38,8 @@ h2{
     border-radius: 10px;
      padding-left: 6px;
      padding-top: 6px;
+    font-weight: 400;          /* default weight for normal text */
+    line-height: 1.5;
 }
 #caption::placeholder{
     padding-left: 10px;
@@ -75,6 +77,7 @@ input{
     display: flex;
     flex-direction: row;
 }
+
 
 
 
