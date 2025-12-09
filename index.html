@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniPost</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create a post</h2>
+        <textarea name="" id="caption" placeholder="Write Your Caption"></textarea><br>
+
+        <div class="uploadContainer">
+        <input type="file" id="mediaUpload" accept="image/*,video/*" multiple>
+        </div>
+
+    <p>share to</p>
+    <div class="platforms">
+
+        <label>
+            <input type="checkbox" name="platform" value="facebook">FACEBOOK
+        </label>
+
+        <label>
+            <input type="checkbox" name="platform" value="instagram">INSTAGRAM
+        </label><br>
+        <label>
+            <input type="checkbox" name="platform" value="linkeden">LINKEDEN
+        </label>
+
+        <label>
+            <input type="checkbox" name="platform" value="threads">THREADS
+        </label><br>
+        
+        <label>
+            <input type="checkbox" name="platform" value="twitter">TWITTER
+        </label>
+    </div>
+    <div class="btnWrapper">
+        <button onclick="post()" id="btn">Post</button>
+    </div>
+    
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
