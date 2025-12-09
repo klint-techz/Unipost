@@ -12,9 +12,9 @@ body{body{
 .container{
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 13px;
     box-shadow: 0 4px 14px rgba(0,0,0,0.1);
-    width: 70%;
+    width: 350px;
     justify-content: center;
     margin: 0 auto;
 }
@@ -73,3 +73,4 @@ input{
     display: flex;
     flex-direction: row;
 }
+
