@@ -12,7 +12,7 @@ body{
 .container{
     background-color: white;
     padding: 20px;
-    border-radius: 13px;
+    border-radius: 20px;
     box-shadow: 0 4px 14px rgba(0,0,0,0.1);
     width: 350px;
     justify-content: center;
@@ -59,6 +59,7 @@ h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;          
     line-height: 1.5;
+    border: none;
 }
 .btnWrapper{
     display: flex;
@@ -78,6 +79,12 @@ input{
     display: flex;
     flex-direction: row;
 }
+
+.share{
+    margin-bottom: -1px;
+    margin-top: 40px;
+}
+
 
 
 
