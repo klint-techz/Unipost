@@ -51,7 +51,7 @@ h2{
     width: 100%;
     background-color:  #007bff;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 7px;
     margin-top: 40px;
     color: white;
     margin-bottom: 0px;
@@ -128,4 +128,5 @@ footer{
   width: 28px;     /* adjust size */
   height: 30px;
 }
+
 
