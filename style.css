@@ -49,7 +49,7 @@ h2{
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: blue;
+    background-color:  #007bff;
     padding: 15px;
     border-radius: 15px;
     margin-top: 40px;
@@ -128,3 +128,4 @@ footer{
   width: 28px;     /* adjust size */
   height: 30px;
 }
+
