@@ -17,7 +17,7 @@ body{
     padding: 20px;
     border-radius: 25px;
     box-shadow: 0 4px 14px rgba(0,0,0,0.1);
-    width: 350px;
+    width: 360px;
     justify-content: center;
     margin: 0 auto;
 }
@@ -229,4 +229,5 @@ footer{
     font-size: 22px;
     justify-content: center;
 }
+
 
