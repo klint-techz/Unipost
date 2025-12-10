@@ -9,50 +9,55 @@
 </head>
 <body>
     <div class="container">
-        <h2>Create a post</h2>
+         <label class="logo">
+            <img src="img/transparent gallery.png" alt="img/video" class="imgLogo">
+        <strong class="imageText">UNIFIED POST</strong> 
+       </label>
+       <h4 class="logoIcon">Create a Post</h4>
+        
         <textarea name="" id="caption" placeholder="Write Your Caption"></textarea><br>
 
         <div class="uploadContainer">
         <input type="file" id="mediaUpload" accept="image/*,video/*" multiple hidden>
         <!-- custom button -->
         <label for="mediaUpload" class="upload-btn">
-            <img src="transparent gallery.png" alt="img/video" class="uploadIcon">
-        Choose File
+            <img src="img/transparent gallery.png" alt="img/video" class="uploadIcon">
+        upload
        </label>
 
   <!-- show file name -->
-         <span id="file-name">No file chosen</span>
+         <span id="file-name">No file </span>
          
 
         </div>
 
-    <p class="share"><strong>share to</strong> </p>
+    <p class="share">share to : </p>
     <div class="platformsContainer">
     <div class="platforms">
 
         <label>
-            <input type="checkbox" name="platform" value="facebook">FACEBOOK
+           <input type="checkbox" name="platform" value="facebook"><b>FACEBOOK</b>
         </label>
 
         <label>
-            <input type="checkbox" name="platform" value="instagram">INSTAGRAM
+            <input type="checkbox" name="platform" value="instagram"><b>INSTAGRAM</b>
         </label>
         <label>
-            <input type="checkbox" name="platform" value="linkeden">LINKEDEN
-        </label>
+            <input type="checkbox" name="platform" value="linkeden"><b>LINKEDEN
+        </label></b>
         </div>
 
         <div class="platforms2">
         <label>
-            <input type="checkbox" name="platform" value="threads">THREADS
+            <input type="checkbox" name="platform" value="threads"><b>THREADS</b>
         </label>
         
         <label>
-            <input type="checkbox" name="platform" value="twitter">TWITTER
+            <input type="checkbox" name="platform" value="twitter"><b>TWITTER</b> 
         </label>
 
          <label>
-            <input type="checkbox" name="platform" value="pinterest">PINTEREST
+            <input type="checkbox" name="platform" value="pinterest"><b>PINTEREST</b>
         </label>
     </div>
     </div>
@@ -69,4 +74,3 @@
     <script src="app.js"></script>
 </body>
 </html>
-
