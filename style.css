@@ -5,7 +5,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;          /* default weight for normal text */
     line-height: 1.5;
@@ -229,6 +229,7 @@ footer{
     font-size: 22px;
     justify-content: center;
 }
+
 
 
 
