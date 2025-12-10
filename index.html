@@ -13,10 +13,19 @@
         <textarea name="" id="caption" placeholder="Write Your Caption"></textarea><br>
 
         <div class="uploadContainer">
-        <input type="file" id="mediaUpload" accept="image/*,video/*" multiple>
+        <input type="file" id="mediaUpload" accept="image/*,video/*" hidden>
+        <!-- custom button -->
+        <label for="mediaUpload" class="upload-btn">
+            <img src="img/transparent gallery.png" alt="img/video" class="uploadIcon">
+        Choose File
+       </label>
+
+  <!-- show file name -->
+  <span id="file-name">No file chosen</span>
+
         </div>
 
-     <p class="share"><strong>share to</strong> </p>
+    <p class="share"><strong>share to</strong> </p>
     <div class="platformsContainer">
     <div class="platforms">
 
@@ -49,13 +58,10 @@
     <div class="btnWrapper">
         <button onclick="post()" id="btn">Post</button>
     </div>
-       <footer>
+    <footer>
         <p><i>developed</i> by <strong class="foot"><a href="https://wa.me/9016588844">klint-techz</a></strong></p>
     </footer>
     </div>
     <script src="app.js"></script>
 </body>
 </html>
-
-
-
