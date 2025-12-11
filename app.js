@@ -52,7 +52,7 @@ function post() {
     console.log("Selected Platforms:", selectedPlatforms);
     console.log("Files:", selectedFiles);
 
-    alert("Post data collected! Check console for details.");
+    alert("Coming soon...");
 }
 
 // --- Preview button functionality ---
@@ -96,3 +96,4 @@ function renderPreviews() {
         previewContainer.appendChild(wrapper);
     });
 }
+
