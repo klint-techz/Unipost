@@ -48,7 +48,8 @@ font-size: 20px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    margin-top: 10px;         
+    margin-top: 10px;   
+    padding-left: 10px;
 }
 #caption::placeholder{
     padding-left: 10px;
@@ -241,3 +242,4 @@ footer{
     }
 
 }
+
