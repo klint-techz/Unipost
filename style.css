@@ -9,6 +9,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;          /* default weight for normal text */
     line-height: 1.5;
+    padding: 10px;
     background: linear-gradient(135deg, #9ac3ff, #ebc9aa); /* optional soft background */
 
 }
@@ -17,9 +18,10 @@ body{
     padding: 20px;
     border-radius: 25px;
     box-shadow: 0 4px 14px rgba(0,0,0,0.1);
-    width: 360px;
     justify-content: center;
     margin: 0 auto;
+    width: 400px;
+    max-width: 700px;
 }
 h2{
     text-align: center;
@@ -66,7 +68,7 @@ font-size: 20px;
     margin-bottom: 0px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;   
-    font-size: 20px;       
+    font-size: 15px;       
     line-height: 1.5;
     border: none;
 }
@@ -81,7 +83,8 @@ input{
 .platforms, .platforms2{
     display: flex;
     flex-direction: column;
-    margin-right: 38px;
+    margin-right: 37px;
+    
 }
 
 .platformsContainer{
@@ -229,7 +232,12 @@ footer{
     font-size: 22px;
     justify-content: center;
 }
+@media(max-width: 360px) {
+    .platforms, .platforms2{
+        font-size: 13px;
+    }
+    #btn{
+        font-size: 14px;
+    }
 
-
-
-
+}
